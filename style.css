@@ -20,7 +20,7 @@ body {
     darkgreen,
     white
   ); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(-90deg, darkgreen, white); /* Standard syntax */
+  background: linear-gradient(-90deg, lightgreen, white); /* Standard syntax */
 }
 
 .main {
@@ -30,10 +30,10 @@ body {
 
 button {
   padding: 20px;
-  background: transparent;
+  background: darkgreen;
   text-shadow: 1px 1px 1px #202020;
   font-family: "Lato", sans-serif;
   font-size: 18pt;
-  border: 1px solid darkblue;
-  color: darkblue;
+  border: 1px solid white;
+  color: white;
 }

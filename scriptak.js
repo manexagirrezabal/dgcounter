@@ -7,7 +7,7 @@ function load_button() {
   count = 0;
 button.onclick = function() {
   count += 1;
-  button.innerHTML = "Click me : " + count;
+  button.innerHTML = "Count : " + count;
 };
 
 }
